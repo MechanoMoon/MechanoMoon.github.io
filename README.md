@@ -50,7 +50,7 @@
 </head>
 <body>
   <header>
-    <h1>Mechano Moon Project</h1>
+    <h1>Mechano Moon </h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#problem">Problem</a>
@@ -174,6 +174,7 @@
     window.addEventListener("scroll", () => { backToTop.style.display = window.scrollY > 400 ? "block" : "none"; });
     backToTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
   </script>
+<P> MADE BY - AAHAN KHANDELWAL , AKSHAJ NIGAM AND GAURANG GUPTA </P>
 </body>
 </html>
 
