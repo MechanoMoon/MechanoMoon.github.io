@@ -138,7 +138,7 @@
 
   <section id="ask">
     <h2>Ask a Question</h2>
-    <p>Send your questions directly to our team. This form uses Formspree to deliver messages to our inbox. Replace <code>your-form-id</code> with your real Formspree endpoint after signing in with <strong>mechanomoon2@gmail.com</strong>.</p>
+    <p>Send your questions directly to our team. This form uses Formspree to deliver messages to our inbox.  <strong>mechanomoon2@gmail.com</strong>.</p>
     <form action="https://formspree.io/f/xqadnaey" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required /> 
