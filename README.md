@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mechano Moon </title>
+  <title>Mechano Moon Project</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -50,7 +50,7 @@
 </head>
 <body>
   <header>
-    <h1>Mechano Moon </h1>
+    <h1>Mechano Moon Project</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#problem">Problem</a>
@@ -138,10 +138,10 @@
 
   <section id="ask">
     <h2>Ask a Question</h2>
-    <p>Send your questions directly to our team. This form uses Formspree to deliver messages to our inbox.  <strong>mechanomoon2@gmail.com</strong>.</p>
-    <form action="https://formspree.io/f/xqadnaey" method="POST">
+    <p>Send your questions directly to our team. This form uses Formspree to deliver messages to our inbox. Replace <code>your-form-id</code> with your real Formspree endpoint after signing in with <strong>mechanomoon2@gmail.com</strong>.</p>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required /> 
+      <input type="email" name="email" placeholder="Your Email" required />
       <select name="topic">
         <option value="general">General Question</option>
         <option value="science">Science & Methodology</option>
@@ -174,7 +174,5 @@
     window.addEventListener("scroll", () => { backToTop.style.display = window.scrollY > 400 ? "block" : "none"; });
     backToTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
   </script>
-<P> MADE BY - AAHAN KHANDELWAL , AKSHAJ NIGAM AND GAURANG GUPTA </P>
 </body>
 </html>
-
